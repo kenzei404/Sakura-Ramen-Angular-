@@ -1,0 +1,96 @@
+body {
+  height: fit-content;
+  width: 100%;
+  display: block;
+  background-image: url("./../../../../public/img/3_section_our_menu/JPG/section_our_menu_bg.jpg");
+  background-repeat: no-repeat; /* Verhindert Wiederholung des Bildes */
+  background-size: cover; /* Passt das Bild an die Größe des Containers an */
+  background-position: center; /* Zentriert das Bild */
+  padding-top: 120px;
+}
+
+p {
+  font-family: "Raleway";
+  font-size: 32px bold;
+  font-weight: 900;
+  color: grey;
+}
+
+img {
+  height: 352px;
+}
+
+ul {
+  flex-direction: column;
+  display: flex;
+  width: 20%;
+  > li {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+}
+
+h2 {
+  margin-bottom: 16px !important;
+}
+
+.margin-r {
+  margin-right: 80px;
+}
+
+.selection {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+h1{
+  font-family: Raleway;
+  font-size: 80px;
+  color: rgb(159,9,8);
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  margin-bottom: 64px;
+}
+
+li{
+  display: flex;
+  width: 100%;
+  padding-inline-start: 0 !important;
+}
+
+ul{
+  width: 100%;
+  padding: 0 !important;
+  padding-inline-start: 0 !important;
+}
+
+.tonkotsu-ramen{
+  margin-bottom: 56px;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 80px;
+}
+
+.spycy-miso-ramen{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 80px;
+  margin-bottom: 56px;
+}
+
+.shio-ramen{
+  margin-bottom: 56px;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 80px;
+}
+
+.dish-container {
+  margin: 80px;
+}
+
